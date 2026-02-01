@@ -1,0 +1,103 @@
+Tree index			Tree file
+0				GBSS-original.tree		
+1				ITS-original.tree		
+2				ndhF-original.tree		
+3				phyB-original.tree		
+4				rbcL-original.tree		
+5				rpoC2-original.tree		
+
+Tree pair	common taxa		cluster number		reticulate node		each component
+(0, 1)			15				20					7				[1, 2, 4]
+(0, 2)			19				24					5				[3, 2]
+(0, 3)			14				16					3				[1, 2]
+(0, 4)			12				15					4				[4]
+(0, 5)			10				10					2				[2]
+(1, 2)			46				63					16				[6, 9, 1]
+(1, 3)			30				40					8				[4, 3, 1]
+(1, 4)			29				40					9				[8, 1]
+(1, 5)			31				38					10				[1, 9]
+(2, 3)			40				46					6				[1, 1, 1, 1, 1, 1]
+(2, 4)			36				42					7				[2, 2, 1, 1, 1]
+(2, 5)			34				37					6				[2, 1, 1, 1, 1]
+(3, 4)			21				27					4				[2, 2]
+(3, 5)			21				23					3				[1, 1, 1]
+(4, 5)			26				30					5				[2, 1, 1, 1]
+
+
+ In the network for two trees, the block set for each biconnected compoment is listed as follows:
+(All taxa in a block set can be included by an element in the block set for an upper component)
+
+Tree (0, 1):
+[{'Pennisetum', 'Zea'}, {'Miscanthus'}]
+[{'Triticum', 'Glyceria'}, {'Lygeum'}, {'Melica'}]
+[{'Miscanthus', 'Karroochloa', 'Centropodia', 'Zea', 'Pennisetum', 'Austrodanthonia', 'Chusquea'}, {"'Merxmuellera r.'"}, {'Lygeum', 'Triticum', 'Melica', 'Glyceria'}, {'Oryza'}, {"'Merxmuellera m.'"}]
+
+Tree (0, 2):
+[{'Miscanthus', 'Karroochloa', 'Centropodia', 'Zea', 'Pennisetum', "'Merxmuellera r.'", 'Austrodanthonia', 'Danthoniopsis', 'Chusquea'}, {'Glyceria', 'Lygeum', 'Melica', 'Triticum', 'Oryza'}, {'Pariana', 'Eremitis'}, {"'Merxmuellera m.'"}]
+[{'Triticum', 'Glyceria'}, {'Lygeum'}, {'Melica'}]
+
+Tree (0, 3):
+[{'Miscanthus', 'Pariana', 'Glyceria', 'Zea', 'Eremitis', 'Lygeum', 'Pennisetum', 'Melica', 'Danthoniopsis', 'Triticum', 'Oryza'}, {'Chusquea'}]
+[{'Triticum', 'Glyceria'}, {'Lygeum'}, {'Melica'}]
+
+Tree (0, 4):
+[{'Karroochloa', 'Centropodia', "'Merxmuellera r.'", 'Austrodanthonia', 'Chusquea'}, {'Triticum'}, {'Oryza'}, {'Miscanthus', 'Pennisetum', 'Zea'}, {"'Merxmuellera m.'"}]
+
+Tree (0, 5):
+[{'Miscanthus', 'Karroochloa', 'Centropodia', 'Zea', 'Pennisetum', "'Merxmuellera r.'", 'Austrodanthonia'}, {'Lygeum', 'Oryza'}, {"'Merxmuellera m.'"}]
+
+Tree (1, 2):
+[{'Glyceria', 'Stipa', 'Piptatherum', 'Bromus', 'Melica', 'Anisopogon', 'Avena', 'Triticum'}, {'Nassella'}, {'Brachypodium'}, {'Brachyelytrum'}, {'Lygeum', 'Nardus'}, {'Diarrhena'}, {'Ampelodesmos'}]
+[{'Miscanthus', 'Centropodia', 'Panicum', 'Danthonia', 'Thysanolaena', 'Chasmanthium', 'Molinia', 'Pennisetum', 'Phragmites', "'Merxmuellera m.'"}, {'Micraira'}, {'Gynerium'}, {"'Merxmuellera r.'"}, {'Amphipogon', 'Arundo'}, {'Karroochloa', 'Austrodanthonia'}, {'Zea'}, {'Eragrostis'}, {'Spartina', 'Sporobolus'}, {'Stipagrostis', 'Aristida'}]
+[{'Miscanthus', 'Aristida', 'Stipa', 'Diarrhena', 'Bromus', 'Eragrostis', 'Lygeum', 'Austrodanthonia', "'Merxmuellera r.'", 'Micraira', 'Avena', 'Brachypodium', 'Brachyelytrum', 'Phragmites', "'Merxmuellera m.'", 'Panicum', 'Chasmanthium', 'Arundo', 'Nardus', 'Pennisetum', 'Karroochloa', 'Zea', 'Molinia', 'Amphipogon', 'Melica', 'Triticum', 'Anisopogon', 'Nassella', 'Gynerium', 'Stipagrostis', 'Spartina', 'Glyceria', 'Piptatherum', 'Centropodia', 'Danthonia', 'Thysanolaena', 'Sporobolus', 'Ampelodesmos'}, {'Lithachne', 'Ehrharta', 'Leersia', 'Oryza', 'Chusquea'}]
+
+Tree (1, 3):
+[{'Miscanthus', 'Aristida', 'Panicum', 'Danthonia', 'Thysanolaena', 'Molinia', 'Pennisetum', 'Phragmites'}, {'Sporobolus'}, {'Chasmanthium'}, {'Eragrostis'}, {'Zea'}]
+[{'Triticum', 'Bromus', 'Anisopogon', 'Avena', 'Brachypodium', 'Nassella'}, {'Melica', 'Glyceria'}, {'Lygeum', 'Nardus'}, {'Diarrhena'}]
+[{'Miscanthus', 'Lithachne', 'Aristida', 'Ehrharta', 'Panicum', 'Danthonia', 'Zea', 'Sporobolus', 'Molinia', 'Eragrostis', 'Thysanolaena', 'Pennisetum', 'Chasmanthium', 'Phragmites', 'Oryza', 'Chusquea'}, {'Nassella', 'Glyceria', 'Nardus', 'Diarrhena', 'Bromus', 'Lygeum', 'Melica', 'Anisopogon', 'Avena', 'Brachypodium', 'Triticum'}]
+
+Tree (1, 4):
+[{'Gynerium', 'Centropodia', 'Chasmanthium', 'Thysanolaena', 'Danthonia', 'Molinia', 'Phragmites', "'Merxmuellera m.'"}, {'Amphipogon', 'Arundo'}, {'Eriachne'}, {"'Merxmuellera r.'"}, {'Karroochloa', 'Austrodanthonia'}, {'Eragrostis'}, {'Miscanthus', 'Pennisetum'}, {'Zea'}, {'Stipagrostis', 'Aristida'}]
+[{'Leersia', 'Lithachne', 'Oryza'}, {'Chusquea'}]
+
+Tree (1, 5):
+[{'Miscanthus', 'Aristida', 'Stipa', 'Bromus', 'Eragrostis', 'Lygeum', 'Austrodanthonia', "'Merxmuellera r.'", 'Micraira', 'Avena', 'Phragmites', "'Merxmuellera m.'", 'Panicum', 'Chasmanthium', 'Arundo', 'Nardus', 'Pennisetum', 'Karroochloa', 'Zea', 'Molinia', 'Amphipogon', 'Anisopogon', 'Gynerium', 'Stipagrostis', 'Spartina', 'Centropodia', 'Danthonia', 'Thysanolaena'}, {'Oryza', 'Ehrharta'}]
+[{'Karroochloa', 'Centropodia', 'Chasmanthium', 'Arundo', 'Thysanolaena', 'Molinia', 'Amphipogon', 'Austrodanthonia', 'Micraira', 'Phragmites'}, {'Panicum', 'Pennisetum', 'Miscanthus'}, {"'Merxmuellera m.'"}, {'Gynerium'}, {"'Merxmuellera r.'"}, {'Zea'}, {'Eragrostis'}, {'Danthonia'}, {'Spartina'}, {'Stipagrostis', 'Aristida'}]
+
+Tree (2, 3):
+[{'Miscanthus', 'Panicum', 'Chasmanthium', 'Zea', 'Pennisetum', 'Danthoniopsis'}, {'Thysanolaena'}]
+[{'Lithachne', 'Diarrhena', 'Bromus', 'Lygeum', 'Avena', 'Brachypodium', 'Chusquea', 'Streptogyna', 'Olyra', 'Buergersiochloa', 'Nardus', 'Melica', 'Nassella', 'Anisopogon', 'Triticum', 'Pariana', 'Glyceria', 'Pseudosasa', 'Eremitis'}, {'Oryza', 'Ehrharta'}]
+[{'Buergersiochloa', 'Lithachne', 'Olyra'}, {'Pariana', 'Eremitis'}]
+[{'Triticum', 'Bromus', 'Diarrhena', 'Avena'}, {'Brachypodium'}]
+[{'Pseudosasa', 'Chusquea'}, {'Lithachne', 'Pariana', 'Olyra', 'Buergersiochloa', 'Eremitis'}]
+[{'Miscanthus', 'Aristida', 'Panicum', 'Chasmanthium', 'Thysanolaena', 'Sporobolus', 'Molinia', 'Eragrostis', 'Zea', 'Pennisetum', 'Danthoniopsis', 'Phragmites'}, {'Danthonia'}]
+
+Tree (2, 4):
+[{'Pseudosasa', 'Chusquea'}, {'Lithachne'}, {'Leersia', 'Oryza'}]
+[{'Karroochloa', 'Pappophorum', 'Centropodia', 'Danthonia', 'Arundo', 'Molinia', 'Eragrostis', 'Amphipogon', "'Merxmuellera r.'", 'Austrodanthonia', 'Phragmites', "'Merxmuellera m.'"}, {'Stipagrostis', 'Aristida'}, {'Miscanthus', 'Gynerium', 'Chasmanthium', 'Thysanolaena', 'Zea', 'Pennisetum'}]
+[{'Eragrostis', "'Merxmuellera r.'", 'Pappophorum'}, {'Centropodia'}]
+[{'Miscanthus', 'Aristida', 'Stipa', 'Bromus', 'Eragrostis', 'Guaduellla', 'Austrodanthonia', "'Merxmuellera r.'", 'Avena', 'Phragmites', "'Merxmuellera m.'", 'Chasmanthium', 'Arundo', 'Pennisetum', 'Karroochloa', 'Zea', 'Molinia', 'Amphipogon', 'Puelia', 'Triticum', 'Gynerium', 'Stipagrostis', 'Pappophorum', 'Centropodia', 'Danthonia', 'Thysanolaena'}, {'Lithachne', 'Leersia', 'Pseudosasa', 'Oryza', 'Chusquea'}]
+[{'Miscanthus', 'Gynerium', 'Thysanolaena', 'Zea', 'Pennisetum'}, {'Chasmanthium'}]
+
+Tree (2, 5):
+[{'Miscanthus', 'Aristida', 'Eragrostis', 'Austrodanthonia', "'Merxmuellera r.'", 'Micraira', "'Merxmuellera m.'", 'Panicum', 'Chasmanthium', 'Arundo', 'Pennisetum', 'Karroochloa', 'Zea', 'Gynerium', 'Stipagrostis', 'Spartina', 'Pappophorum', 'Centropodia', 'Danthonia', 'Thysanolaena'}, {'Amphipogon'}, {'Phragmites', 'Molinia'}]
+[{'Eragrostis', 'Micraira', 'Spartina', 'Pappophorum'}, {'Centropodia', "'Merxmuellera r.'"}]
+[{'Eragrostis', 'Pappophorum'}, {'Spartina'}]
+[{'Miscanthus', 'Gynerium', 'Panicum', 'Chasmanthium', 'Zea', 'Pennisetum'}, {'Thysanolaena'}]
+[{'Pseudosasa', 'Olyra'}, {'Oryza', 'Ehrharta'}]
+
+Tree (3, 4):
+[{'Miscanthus', 'Aristida', 'Danthonia', 'Zea', 'Thysanolaena', 'Molinia', 'Eragrostis', 'Chasmanthium', 'Pennisetum', 'Bromus', 'Avena', 'Puelia', 'Triticum', 'Phragmites'}, {'Lithachne', 'Pseudosasa', 'Chusquea'}, {'Oryza'}]
+[{'Miscanthus', 'Chasmanthium', 'Thysanolaena', 'Zea', 'Molinia', 'Eragrostis', 'Pennisetum', 'Phragmites'}, {'Aristida'}, {'Danthonia'}]
+
+Tree (3, 5):
+[{'Miscanthus', 'Aristida', 'Panicum', 'Chasmanthium', 'Danthonia', 'Thysanolaena', 'Zea', 'Eragrostis', 'Pennisetum'}, {'Phragmites', 'Molinia'}]
+[{'Olyra', 'Pseudosasa', 'Nardus', 'Bromus', 'Lygeum', 'Avena', 'Anisopogon'}, {'Oryza', 'Ehrharta'}]
+[{'Miscanthus', 'Panicum', 'Thysanolaena', 'Zea', 'Pennisetum'}, {'Chasmanthium'}]
+
+Tree (4, 5):
+[{'Aristida', 'Stipagrostis', 'Karroochloa', 'Pappophorum', 'Centropodia', 'Danthonia', 'Arundo', 'Eragrostis', "'Merxmuellera r.'", 'Austrodanthonia', "'Merxmuellera m.'"}, {'Amphipogon'}, {'Phragmites', 'Molinia'}]
+[{'Eragrostis', "'Merxmuellera r.'", 'Pappophorum'}, {'Centropodia'}]
+[{'Miscanthus', 'Gynerium', 'Thysanolaena', 'Zea', 'Pennisetum'}, {'Chasmanthium'}]
+[{'Miscanthus', 'Aristida', 'Stipa', 'Bromus', 'Eragrostis', 'Austrodanthonia', "'Merxmuellera r.'", 'Avena', 'Phragmites', "'Merxmuellera m.'", 'Chasmanthium', 'Arundo', 'Pennisetum', 'Karroochloa', 'Zea', 'Molinia', 'Amphipogon', 'Gynerium', 'Stipagrostis', 'Pappophorum', 'Centropodia', 'Danthonia', 'Thysanolaena'}, {'Pseudosasa', 'Oryza'}]
+
